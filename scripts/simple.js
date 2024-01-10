@@ -13,13 +13,13 @@ const principalDiv = document.getElementById('principal-div');
 const amountDiv = document.getElementById('amount-div');
 const interestDiv = document.getElementById('interest-div');
 
+principal_range.addEventListener('input', (event) => HandleInputs(event, principal_input, 1, 1000000));
 principal_input.addEventListener('blur', (event) => HandleInputs(event, principal_range, 1, 1000000));
-principal_range.addEventListener('blur', (event) => HandleInputs(event, principal_input, 1, 1000000));
 
-time_range.addEventListener('blur', (event) => HandleInputs(event, time_input, 1, 60));
+time_range.addEventListener('input', (event) => HandleInputs(event, time_input, 1, 60));
 time_input.addEventListener('blur', (event) => HandleInputs(event, time_range, 1, 60));
 
-rate_range.addEventListener('blur', (event) => HandleInputs(event, rate_input, 1, 50));
+rate_range.addEventListener('input', (event) => HandleInputs(event, rate_input, 1, 50));
 rate_input.addEventListener('blur', (event) => HandleInputs(event, rate_range, 1, 50));
 
 calculateBtn.addEventListener('click', calculateSimpleInterest);
@@ -72,9 +72,9 @@ function calculateSimpleInterest() {
     const simple_interest = (principal * time * rate) / 100;
     const amount = principal + simple_interest;
 
-    amountDiv.innerText = amount;
-    principalDiv.innerText = principal;
-    interestDiv.innerText = simple_interest;
+    amountDiv.innerText = amount.toFixed(2);
+    principalDiv.innerText = principal.toFixed(2);
+    interestDiv.innerText = simple_interest.toFixed(2);
 }
 
 calculateSimpleInterest();
