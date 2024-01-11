@@ -4,6 +4,7 @@ import calculateSimpleInterest from "./simple.js";
 const calcValues = ['si', 'ci'];
 let calculator = 'si';
 
+const calcuate_btn_text = document.getElementById('calculate-btn-text');
 const calcName = document.querySelectorAll('.calc');
 
 const principal_range = document.getElementById('principal-range');
@@ -97,9 +98,17 @@ function calcuate() {
 
 
 calcName.forEach(calc => {
+
     calc.addEventListener('click', () => {
+
         if (calc.value == '' || !calcValues.includes(calc.value)) calculator = 'si';
+
         calculator = calc.value
+
+        if (calculator == calcValues[0]) calcuate_btn_text.innerText = 'Simple Interest';
+        else if (calculator == calcValues[1]) calcuate_btn_text.innerText = 'Compound Interest';
+
         calcuate();
     });
+
 });
