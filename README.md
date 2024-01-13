@@ -12,7 +12,7 @@ The Interest that is charged on the Principal amount every year is called Simple
 
 The Formula to calculate Simple Interest is:
 
-\[ SI = \frac{P \times T \times R}{100} \]
+SI = (P x T x R) / 100
 
 Here:
 - \( P \) is the Principal amount,
@@ -25,7 +25,7 @@ The Interest that is charged on the Principal amount as well as on the Previous 
 
 The Formula to calculate Compound Interest is:
 
-\[ CI = A - P \]
+CI = A - P
 
 Here:
 - \( A \) is the Amount,
@@ -33,7 +33,7 @@ Here:
 
 To calculate the Amount, the formula is:
 
-\[ A = P \times \left(1 + \frac{R}{100}\right)^T \]
+A = P x [1 + R/100] ^ T
 
 Where:
 - \( P \) is the Principal amount,
