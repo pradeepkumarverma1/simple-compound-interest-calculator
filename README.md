@@ -1,10 +1,44 @@
-# Simple Interest Calculator
+# Simple and Compound Interest Calculator
 
-This is a Simple Interest Calculator built with HTML, CSS, and JavaScript.
+This is a Simple and Compound Interest Calculator built with HTML, CSS, and JavaScript.
 
 ## Features
 
-- Calculates simple interest based on user input.
+- Calculates simple or Compound interest based on user input.
+
+### Simple Interest
+
+The Interest that is charged on the Principal amount every year is called Simple Interest.
+
+The Formula to calculate Simple Interest is:
+
+\[ SI = \frac{P \times T \times R}{100} \]
+
+Here:
+- \( P \) is the Principal amount,
+- \( T \) is the time (No. of years),
+- \( R \) is the Rate of Interest (in %).
+
+### Compound Interest
+
+The Interest that is charged on the Principal amount as well as on the Previous Interest is called Compound Interest.
+
+The Formula to calculate Compound Interest is:
+
+\[ CI = A - P \]
+
+Here:
+- \( A \) is the Amount,
+- \( P \) is the Principal.
+
+To calculate the Amount, the formula is:
+
+\[ A = P \times \left(1 + \frac{R}{100}\right)^T \]
+
+Where:
+- \( P \) is the Principal amount,
+- \( R \) is the Rate of Interest (in %),
+- \( T \) is the time (No. of years).
 
 
 ## Getting Started
