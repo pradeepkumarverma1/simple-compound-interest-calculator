@@ -19,7 +19,18 @@
     <div class="container mx-auto px-4 mb-10">
         <h1 class="text-3xl text-center mb-1">Simple & Compound <br> Interest Calculator</h1>
 
-        <div class="w-1/2 container mx-auto border border-blue-500 p-4 rounded">
+        <div id="theme" class="flex justify-center my-3">
+            <div class="bg-blue-500 rounded-full border-2 mx-2 theme-color" data-color="blue-500"
+                style="width: 30px;height: 30px;cursor:pointer;"></div>
+            <div class="bg-rose-500 rounded-full border-2 mx-2 theme-color" data-color="rose-500"
+                style="width: 30px;height: 30px;cursor:pointer;"></div>
+            <div class="bg-green-500 rounded-full border-2 mx-2 theme-color" data-color="green-500"
+                style="width: 30px;height: 30px;cursor:pointer;"></div>
+            <div class="bg-orange-500 rounded-full border-2 mx-2 theme-color" data-color="orange-500"
+                style="width: 30px;height: 30px;cursor:pointer;"></div>
+        </div>
+
+        <div class="w-1/2 container mx-auto border-2 border-blue-500 theme-border p-4 rounded">
 
             <div class="container mx-auto px-4 mb-8">
                 <input type="radio" name="interest" id="si" class="calc" value="si" checked>
@@ -35,7 +46,7 @@
                     <input type="range" name="principal-range" id="principal-range" value="500" min="1" max="1000000"
                         step="500">
                     <input type="number" value="500" name="principal-input" id="principal-input"
-                        class="border-2 border-blue-500 rounded p-2" placeholder="Principal Amount">
+                        class="border-2 border-blue-500 theme-border rounded p-2" placeholder="Principal Amount">
                 </div>
             </div>
 
@@ -44,7 +55,7 @@
                 <div class="grid grid-cols-2 w-90 gap-10">
                     <input type="range" name="time-range" id="time-range" value="5" min="1" max="60" step="1">
                     <input type="number" value="5" name="time-input" id="time-input"
-                        class="border-2 border-blue-500 rounded p-2" placeholder="No. of years">
+                        class="border-2 border-blue-500 theme-border rounded p-2" placeholder="No. of years">
                 </div>
             </div>
 
@@ -53,12 +64,12 @@
                 <div class="grid grid-cols-2 w-90 gap-10">
                     <input type="range" name="rate-range" id="rate-range" value="8" min="1" max="50" step="1">
                     <input type="number" value="8" name="rate-input" id="rate-input"
-                        class="border-2 border-blue-500 rounded p-2" placeholder="Interest %">
+                        class="border-2 border-blue-500 theme-border rounded p-2" placeholder="Interest %">
                 </div>
             </div>
 
             <div class="container mx-auto px-4 mb-4">
-                <button class="bg-sky-500 p-3 text-white rounded hover:bg-sky-600" id="calculate-btn">Calculate
+                <button class="bg-blue-500 theme-bg p-3 text-white rounded" id="calculate-btn">Calculate
                     <span id="calculate-btn-text">Simple Interest</span></button>
             </div>
 
@@ -102,6 +113,7 @@
 
 
     <script type="module" src="/scripts/main.js"></script>
+    <script src="./scripts/theme.js"></script>
 </body>
 
 </html>
