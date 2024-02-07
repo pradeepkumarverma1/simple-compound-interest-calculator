@@ -2,6 +2,12 @@
 
 This is a Simple and Compound Interest Calculator built with HTML, CSS, and JavaScript.
 
+## Live Preview
+
+```bash
+https://pradeepkumarverma1.github.io/simple-compound-interest-calculator/
+```
+
 ## Features
 
 - Calculates simple or Compound interest based on user input.
