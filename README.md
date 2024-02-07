@@ -4,9 +4,9 @@ This is a Simple and Compound Interest Calculator built with HTML, CSS, and Java
 
 ## Live Preview
 
-```bash
-https://pradeepkumarverma1.github.io/simple-compound-interest-calculator/
-```
+
+![https://pradeepkumarverma1.github.io/simple-compound-interest-calculator/](https://pradeepkumarverma1.github.io/simple-compound-interest-calculator/)
+
 
 ## Features
 
