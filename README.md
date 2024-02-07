@@ -5,6 +5,7 @@ This is a Simple and Compound Interest Calculator built with HTML, CSS, and Java
 ## Features
 
 - Calculates simple or Compound interest based on user input.
+- Change theme colors
 
 ### Simple Interest
 
@@ -18,6 +19,10 @@ Here:
 - \( P \) is the Principal amount,
 - \( T \) is the time (No. of years),
 - \( R \) is the Rate of Interest (in %).
+
+#### Simple Interest Calc Screenshot
+![Screenshot (560)](https://github.com/pradeepkumarverma1/simple-compound-interest-calculator/assets/132253060/eac998c0-eaa6-412d-bd82-5fca9958e2c8)
+
 
 ### Compound Interest
 
@@ -39,6 +44,9 @@ Where:
 - \( P \) is the Principal amount,
 - \( R \) is the Rate of Interest (in %),
 - \( T \) is the time (No. of years).
+
+#### Compound Interest Calc Screenshot
+![Screenshot (561)](https://github.com/pradeepkumarverma1/simple-compound-interest-calculator/assets/132253060/d1b3e411-b68e-416f-996b-b07f7c8acc7d)
 
 
 ## Getting Started
