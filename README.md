@@ -7,6 +7,10 @@ This is a Simple and Compound Interest Calculator built with HTML, CSS, and Java
 - Calculates simple or Compound interest based on user input.
 - Change theme colors
 
+## Theme Colors
+![Simple and compound interest calc themes](https://github.com/pradeepkumarverma1/simple-compound-interest-calculator/assets/132253060/976c7a52-4742-48ae-9211-8a4355d2e4f8)
+
+
 ### Simple Interest
 
 The Interest that is charged on the Principal amount every year is called Simple Interest.
